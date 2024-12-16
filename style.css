@@ -1,0 +1,373 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: #F8F5E2;
+}
+/*NAVIGATION BAR STYLE START HERE*/
+/*NAVIGATION BAR (right section -- logo)STYLE START HERE*/
+.navbar{
+    background-color: #F8F5E2;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    z-index: 999;
+    overflow: hidden;
+    border-bottom: 0.5px solid rgb(129, 128, 141);
+}
+.left_section{
+    margin: 20px;
+    float: left;
+    width: 33.333333333333333%;
+}
+
+.left_section img{
+    width: 100px;
+    cursor: pointer;
+}
+
+
+/*NAVIGATION BAR (middle section --- search bar) STYLE START HERE*/
+.mid_section{
+    float: left;
+    width: 30%;
+    border: 2px solid blue;
+    border-radius: 20px;
+    height: 35px;
+    overflow: hidden;
+    margin: 30px -10px;
+    
+}
+.Search_btn{
+    margin: 10px;
+    border: none;
+    outline: none;
+    color: blue;
+    background: none;
+    float: left;
+    cursor: pointer;
+}
+.Search_btn:hover{
+    color:#FE5200;
+}
+.mid_section input{
+    background-color: #F8F5E2;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    margin: 10px;
+    width: 60%;
+}
+.Clear_Search_btn{
+    margin: 5px;
+    padding: 4px;
+    float: right;
+    border: 1px solid blue;
+    border-radius: 50%;
+    outline: none;
+    color: blue;
+    background: none;
+    cursor: pointer;
+}
+.Clear_Search_btn:hover{
+    color: #FE5200;
+
+}
+/*NAVIGATION BAR (right section -- navigation list) STYLE START HERE*/
+.right_section{
+    list-style: none;
+    float: right;
+    margin: 40px 20px;
+    overflow: hidden;
+}
+.right_section li {
+    float: left;
+    margin-right: 20px;
+}
+li a{
+    text-decoration: none;
+    font-size: 12pt;
+    font-weight: bold;
+    color: blue;
+    cursor: pointer;
+}
+li a:hover{
+    color: #FE5200;
+}
+.clear{
+    clear: both;
+}
+/*NAVIGATION BAR STYLE ENDS HERE*/
+
+/* ---------------- home area with small information -----------------------*/
+
+/* My name */
+#Home{
+    margin-top: 100px;
+    display: inline-block;
+    width: 100%;
+    height: 300px;
+    text-align:center;
+    background-color: #F8F5E2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    font-size: 100pt;
+}
+h2{
+    font-size: 70pt;
+}
+#Home p{
+    font-size: 15pt;
+}
+.highlight{
+    color:blue;
+    font-weight: bolder;
+
+}
+/* --------------   My pic and my card with important links (STARTS HERE)  -------------*/
+.about1{
+    overflow: hidden;
+    margin: 60px auto auto auto;
+    width: 70%;
+    height: 450px;
+    text-align:center;
+    background-color: #F8F5E2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*------------------------------My pic ----------------------------------*/
+.myface{
+float: left;
+align-items: center;
+width: 50%;
+height: 400px;
+margin: auto;
+
+
+}
+.img_border{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid grey;
+    margin: auto;
+
+
+}
+.img_border img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/*------------------------------My card text ----------------------------------*/
+.mycard {
+    float: left;
+    width: 50%;
+    height: 400px;
+    margin: auto -10px auto auto;
+    text-align: center;
+    
+}
+.mycard pre{
+    text-align: center;
+    font-size: 15pt;
+    line-height: 1.8;
+}
+.bold{
+    font-weight: bolder;
+}
+/*------------------------------My links ----------------------------------*/
+.Mylinks {
+    width: 70%;/* Clears the floats */
+    overflow: hidden;
+    margin :20px auto;
+}
+.link{
+    width:33.333333333333%;
+    float:left;
+}
+.circle-link {
+    width: 100px; 
+    display: inline-block;
+    height: 100px; 
+    border: 1.5px solid black;
+    border-radius: 50%; 
+    text-align: center; 
+    line-height: 100px; 
+    color: rgb(0, 0, 0);
+    text-decoration: none; 
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bolder;
+}
+.circle-link:hover {
+    background-color: white;
+    cursor: pointer;
+}
+/*------------------------links background color ---------------------*/
+.resume{
+    background-color:  orange ;
+}
+.github{
+    background-color: lightseagreen;
+}
+.linkedin{
+    background-color: red;
+}
+/* --------------   My pic and my card with important links (ENDS HERE)  -------------*/
+
+/* ---------------------------SEPERATOR ----------------------------------------*/
+.separator {
+    margin-top: 15px;
+    text-align: center; /* Center align everything inside */
+    white-space: nowrap; /* Prevent the text and line from wrapping */
+  }
+  
+  .text-left, .text-right {
+    display: inline-block; /* Ensure they appear inline */
+    font-size: 20px;
+    font-weight: bold;
+    color: blue; /* Adjust color */
+  }
+  
+  .line {
+    display: inline-block; /* Inline to stay between the text */
+    width: 70%; /* Adjust this value to control line length */
+    height: 2px;
+    background-color: blue; /* Line color */
+    vertical-align: middle; /* Align with the text */
+    margin: 0 10px; /* Spacing between the line and text */
+  }
+
+/* --------------   Projects (starts HERE)  -------------*/
+.projects{
+    background-color:#F8F5E2;
+    padding-bottom: 40px;
+    margin-top: 20px;
+}
+
+
+.project_num{
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 60px;
+}
+/*-----------------Porject pic ---------------   */
+.project_shot{
+    width: 50%;
+    float: right;
+    margin-top: 25px;
+    position: relative;
+
+}
+.project_shot img{
+    width: 90%;
+    height: 45%;
+    border: 2px solid black;
+    border-radius: 3%;
+}
+
+.project_desc{
+    width: 45%;
+    float: left;
+    margin: auto 10px ;
+     margin-left: 30px;
+}
+/*-----------------Porject desc---------------   */
+.project_desc h2{
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.project_desc pre{
+    font-size: 15pt;
+    line-height: 1.8;
+    width: 100%;
+
+}
+
+.project_desc h3{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 30px;
+}
+
+
+
+.technolgies{
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+.tech_li{
+    display: inline-block;
+    width: 20%;
+    font-size: 18pt;
+}
+
+.project_btn_div{
+    width: 100%;
+    text-align: center;
+}
+.project_btn{
+    text-align: center;
+    font-size: 15pt;
+    background-color: #68AACA ;
+    border: 2px solid black;
+    border-radius: 40%;
+    padding: 20px;
+}
+.project_btn:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+/* --------------   Projects (ENDS HERE)  -------------*/
+
+/* ----------------------------   ELEVATOR PITCH (STARTS HERE)  ----------------------------*/
+
+#KNOWME{
+    width: 100%;
+}
+.iframe_div{
+    float: right;
+    width: 800px; 
+    height: 500px; 
+    margin: 70px ;
+    border: 2px solid #000000;
+    position: relative; 
+    background-color: #f9f9f9; 
+}
+.iframe_container {
+        position: absolute; 
+        top: 50%; 
+        left: 50%; 
+        transform: translate(-50%, -50%);
+    }
+iframe {
+    width: 800px; 
+    height: 500px; 
+}
+
+.elevator pre,ol{
+    float: left;
+    margin: 50px;
+    width: 30%;
+    font-size: 18pt;
+    background-color: #F8F5E2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* -----------------------------   ELEVATOR PITCH (ENDS HERE)  ----------------------------*/
+
+.footer{
+    border-top: 2px solid blue;
+    text-align: center;
+    font-size: 16pt;
+}
+.footer h3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
